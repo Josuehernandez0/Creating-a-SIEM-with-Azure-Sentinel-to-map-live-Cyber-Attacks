@@ -20,11 +20,12 @@
 
 1. Microsoft Azure Subscription
 2. Azure Sentinel
-3.Kusto Query Language (KQL - Used to build world map)
-4.Network Security Groups
-5.Remote Desktop Protocol (RDP)
-6.3rd Party API: ipgeolocation.io
-7.Custom Powershell Script (https://github.com/joshmadakor1/Sentinel-Lab/blob/main/Custom_Security_Log_Exporter.ps1)
+3. Kusto Query Language (KQL - Used to build world map)
+4. Network Security Groups
+5. Remote Desktop Protocol (RDP)
+6. 3rd Party API: ipgeolocation.io
+7. Custom Powershell Script (https://github.com/joshmadakor1/Sentinel-Lab/blob/main/Custom_Security_Log_Exporter.ps1)
+
 <h2>Operating Systems Used </h2>
 
 - Windows 10</b> (21H2)
