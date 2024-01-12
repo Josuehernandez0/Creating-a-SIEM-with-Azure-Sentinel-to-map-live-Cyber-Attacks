@@ -6,11 +6,11 @@
 <img src="https://i.imgur.com/bIRuJBQ.jpg"/>
 </p>
 <h1>Learning Objectives:</h1>
-- • Configuration & Deployment of Azure resources such as virtual machines, Log Analytics Workspaces, and Azure Sentinel
-- • Hands-on experience and working knowledge of a SIEM Log Management Tool (Microsoft's Azure Sentinel)
-- • Understand Windows Security Event logs
-- • Utilization of KQL to query logs
-- • Display attack data on a dashboard with Workbooks (World Map)<br />
+-  Configuration & Deployment of Azure resources such as virtual machines, Log Analytics Workspaces, and Azure Sentinel
+-  Hands-on experience and working knowledge of a SIEM Log Management Tool (Microsoft's Azure Sentinel)
+-  Understand Windows Security Event logs
+-  Utilization of KQL to query logs
+-  Display attack data on a dashboard with Workbooks (World Map)<br />
 
 
 
