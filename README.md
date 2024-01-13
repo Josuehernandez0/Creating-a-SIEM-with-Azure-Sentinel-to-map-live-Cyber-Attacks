@@ -76,22 +76,24 @@
 <img src="https://i.imgur.com/6sQJmXk.png"/>
 </p>
 <p>
-Disks
-Leave all defaults
-Select Next : Networking >
-Networking
-Network interface
-NIC network security group: Advanced > Create new
-A network security group contains security rules that allow or deny inbound network traffic to, or outbound network traffic from, the virtual machine. In other words, security rules management.
+ 
+### Disks 
+ 
+- Leave all defaults
+- Select **Next : Networking >**
 
-Remove Inbound rules (1000: default-allow-rdp) by clicking three dots
-Add an inbound rule
-Destination port ranges: * (wildcard for anything)
-Protocol: Any
-Action: Allow
-Priority: 100 (low)
-Name: Anything (ALLOW_ALL_INBOUND)
-Select Review + create
+### Networking
+#### Network interface
+- NIC network security group: Advanced > Create new
+> A network security group contains security rules that allow or deny inbound network traffic to, or outbound network traffic from, the virtual machine. In other words, security rules management.
+- Remove Inbound rules (1000: default-allow-rdp) by clicking three dots
+- Add an inbound rule
+- Destination port ranges: * (wildcard for anything)
+- Protocol: Any
+- Action: Allow
+- Priority: 100 (low)
+- Name: Anything (ALLOW_ALL_INBOUND)
+- Select **Review + create**
 </p>
 <br />
 
