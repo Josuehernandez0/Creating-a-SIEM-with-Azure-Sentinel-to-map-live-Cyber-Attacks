@@ -36,7 +36,7 @@
 <img src="https://i.imgur.com/0NnL9CD.png"/>
 </p>
 <p>
-Basics
+<h2>Basic</h2>
 Go to portal.azure.com
 Search for "virtual machines"
 Create > Azure virtual machine
