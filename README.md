@@ -101,13 +101,15 @@
 <img src="https://i.imgur.com/F2LC8zv.png"/>
 </p>
 <p>
-Step 3: Create a Log Analytics Workspace
-Search for "Log analytics workspaces"
-Select Create Log Analytics workspace
-Put it in the same resource group as VM (honeypotlab)
-Give it a desired name (honeypot-log)
-Add to same region (East US 2)
-Select Review + create
+> Configuring the firewall to allow traffic from anywhere will make the VM easily discoverable.
+
+## Step 3: Create a Log Analytics Workspace
+- Search for "Log analytics workspaces"
+- Select **Create Log Analytics workspace**
+- Put it in the same resource group as VM (honeypotlab)
+- Give it a desired name (honeypot-log)
+- Add to same region (East US 2)
+- Select **Review + create**
 </p>
 <br />
 
