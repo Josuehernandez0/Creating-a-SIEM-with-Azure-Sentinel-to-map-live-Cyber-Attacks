@@ -37,30 +37,38 @@
 </p>
 <p>
 <h2>Basic</h2>
-Go to portal.azure.com
-Search for "virtual machines"
-Create > Azure virtual machine
-Project details
-Create new resource group and name it (honeypotlab)
-A resource group is a collection of resources that share the same lifecycle, permissions, and policies.
+ 
+- Go to portal.azure.com
+- Search for "virtual machines"
+- Create > Azure virtual machine
+  
+#### Project details
+- Create new resource group and name it (honeypotlab)
+> A resource group is a collection of resources that share the same lifecycle, permissions, and policies.
 
-Instance details
-Name your VM (honeypot-vm)
-Select a recommended region ((US) East US 2)
-Availability options: No infrastructure redundancy required
-Security type: Standard
-Image: Windows 10 Pro, version 21H2 - x62 Gen2
-VM Architecture: x64
-Size: Default is okay (Standard_D2s_v3 – 2vcpus, 8 GiB memory)
-Administrator account
-Create a username and password for virtual machine
-IMPORTANT NOTE: These credentials will be used to log into the virtual machine (Keep them handy)
+#### Instance details
 
-Inbound port rules
-Public inbound ports: Allow RDP (3389)
-Licensing
-Confirm licensing
-Select Next : Disks >
+- Name your VM (honeypot-vm)
+- Select a recommended region ((US) East US 2)
+- Availability options: No infrastructure redundancy required
+- Security type: Standard
+- Image: Windows 10 Pro, version 21H2 - x62 Gen2
+- VM Architecture: x64
+- Size: Default is okay (Standard_D2s_v3 – 2vcpus, 8 GiB memory)
+
+#### Administrator account
+
+- Create a username and password for virtual machine
+> IMPORTANT NOTE: These credentials will be used to log into the virtual machine (Keep them handy)
+
+#### Inbound port rules
+
+- Public inbound ports: Allow RDP (3389)
+
+#### Licensing
+
+- Confirm licensing
+- Select **Next : Disks >** >
 </p>
 <br />
 
