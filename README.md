@@ -65,10 +65,42 @@ Select Next : Disks >
 <br />
 
 <p>
-<img src=""/>
+<img src="https://i.imgur.com/6sQJmXk.png"/>
 </p>
 <p>
-... 
+Create VM 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/F2LC8zv.png"/>
+</p>
+<p>
+Create inbound rules
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/eO1qdCw.png"/>
+</p>
+<p>
+Create log analytics
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/WAhlGrk.png"/>
+</p>
+<p>
+Defender
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/tXfBJfv.png"/>
+</p>
+<p>
+Defender enable
 </p>
 <br />
 
@@ -81,81 +113,67 @@ Select Next : Disks >
 <br />
 
 <p>
-<img src=""/>
+<img src="https://i.imgur.com/ojSxO1h.png"/>
 </p>
 <p>
-...
-</p>
-<br />
-
-<p>
-<img src=""/>
-</p>
-<p>
-...
+Sentinel
 </p>
 <br />
 
 <p>
-<img src=""/>
+<img src="https://i.imgur.com/R8pLTtk.png"/>
 </p>
 <p>
-...
-</p>
-<br />
-
-<p>
-<img src=""/>
-</p>
-<p>
-...
+Disable firewall
 </p>
 <br />
 
 <p>
-<img src=""/>
+<img src="https://i.imgur.com/zg2Vwi6.png"/>
 </p>
 <p>
-...
-</p>
-<br />
-
-<p>
-<img src=""/>
-</p>
-<p>
-...
+Powershell script run
 </p>
 <br />
 
 <p>
-<img src=""/>
+<img src="https://i.imgur.com/GZmK6zk.png"/>
 </p>
 <p>
-... 
-</p>
-<br />
-
-<p>
-<img src=""/>
-</p>
-<p>
-...
+Ipgeolocation
 </p>
 <br />
 
 <p>
-<img src=""/>
+<img src="https://i.imgur.com/n3K9t4S.png"/>
 </p>
 <p>
-...
+Logs
 </p>
 <br />
 
 <p>
-<img src=""/>
+<img src="https://i.imgur.com/jYhpxro.png"/>
 </p>
 <p>
-...
+Failed rdp
 <br />
+
+<p>
+<img src="https://i.imgur.com/U4tTr5v.png"/>
+</p>
+<p>
+Custom query
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/bIRuJBQ.jpg"/>
+</p>
+<p>
+Failed rpdmap
+</p>
+<br />
+
+
 
