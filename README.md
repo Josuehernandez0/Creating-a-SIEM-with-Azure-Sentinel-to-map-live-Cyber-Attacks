@@ -278,9 +278,19 @@ Custom query
 - Copy/Paste the following query into the query window and **Run Query**
 
 ```KQL
-FAILED_RDP_WITH_GEO_CL | summarize event_count=count() by sourcehost_CF, latitude_CF, longitude_CF, country_CF, label_CF, destinationhost_CF
-| where destinationhost_CF != "samplehost"
-| where sourcehost_CF != ""
+failed_geo_CL
+| extend username = extract(@"username:([^,]+)", 1, RawData),
+       timestamp = extract(@"timestamp:([^,]+)", 1, RawData),
+       latitude = extract(@"latitude:([^,]+)", 1, RawData),
+       longitude = extract(@"longitude:([^,]+)", 1, RawData),
+       sourcehost = extract(@"sourcehost:([^,]+)", 1, RawData),
+       state = extract(@"state:([^,]+)", 1, RawData),
+       label = extract(@"label:([^,]+)", 1, RawData),
+       destination = extract(@"destinationhost:([^,]+)", 1, RawData),
+       country = extract(@"country:([^,]+)", 1, RawData) 
+| where destination != "samplehost" 
+| where sourcehost != "" 
+| summarize event_count = count() by latitude, longitude, sourcehost, label, destination, country
 ```
 > Kusto Query Language (KQL) - Azure Monitor Logs is based on Azure Data Explorer. The language is designed to be easy to read and use with some practice writing queries and basic guidance.
 
