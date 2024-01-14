@@ -222,6 +222,7 @@
 - Copy API key once logged in and paste into script line 2: `$API_KEY = "<API key>"`
 - Hit **Save**
 - Run the PowerShell ISE script (Green play button) in the virtual machine to continuously produce log data
+- **Note** Before sharing any personal APIs online, remember to remove or refresh them to ensure security and privacy.
 
 ![](images/ipgeolocation.png)
 
