@@ -216,6 +216,7 @@
 <img src="https://i.imgur.com/n3K9t4S.png"/>
 </p>
 <p>
+ 
 - Make an account with [Free IP Geolocation API and Accurate IP Lookup Database](https://ipgeolocation.io/)
 > This account is free for 1000 API calls per day. Paying 15.00$ will allow 150,000 API calls per month.
 - Copy API key once logged in and paste into script line 2: `$API_KEY = "<API key>"`
