@@ -114,12 +114,12 @@
 <br />
 
 <p>
-<img src="https://i.imgur.com/eO1qdCw.png"/>
-</p>
-<p>
-Step 4: Configure Microsoft Defender for Cloud
-Search for "Microsoft Defender for Cloud"
-Scroll down to "Environment settings" > subscription name > log analytics workspace name (log-honeypot)
+ 
+> The Windows Event Viewer logs will be ingested into Log Analytics workspaces in addition to custom logs with geographic data to map attacker locations.
+
+## Step 4: Configure Microsoft Defender for Cloud
+- Search for "Microsoft Defender for Cloud"
+- Scroll down to "Environment settings" > subscription name > log analytics workspace name (log-honeypot)
 
 </p>
 <br />
